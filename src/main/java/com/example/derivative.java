@@ -1,46 +1,8 @@
+
 package com.example;
 
 import net.objecthunter.exp4j.Expression;
 import net.objecthunter.exp4j.ExpressionBuilder;
-import net.objecthunter.exp4j.function.Function;
-
-// public class derivative {
-
-//     private final double interval = 0.0001;
-//         double[] value_of_x = new double[2];
-//     double[] value_of_y = new double[2];
-
-//     public double CalculateDerivative(String expression,double value){
-        
-//        value_of_x[0]=value-interval;
-//        System.out.println(value_of_x[0]);
-//        value_of_x[1]=value+interval;
-//        System.out.println(value_of_x[1]);
-//         Expression expr;
-//         try {
-//             expr = new ExpressionBuilder(expression).variable("x").build();
-//         } catch (Exception e) {
-//             throw new IllegalArgumentException("Invalid expression: " + expression, e);
-//         }
-
-//         for (int i = 0; i < 2; i++) {
-//             try {
-//                 value_of_y[i] = expr.setVariable("x", value_of_x[i]).evaluate();
-//             } catch (Exception e) {
-//                 throw new RuntimeException("Error evaluating expression at x = " + value_of_x[i], e);
-//             }
-//         }
-//         System.out.println(value_of_y[0]);
-        
-//         System.out.println(value_of_y[1]);
-//         // forumla 
-//         double deriva = (value_of_y[1]-value_of_y[0])/(2*interval);        
-//         return deriva;
-//     }
-    
-    
-//}
-
 
 public class derivative  {
     private final double interval = 0.0001; // Small interval for derivative approximation

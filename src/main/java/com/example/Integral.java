@@ -41,7 +41,6 @@ package com.example;
 // }
 import net.objecthunter.exp4j.Expression;
 import net.objecthunter.exp4j.ExpressionBuilder;
-import net.objecthunter.exp4j.function.Function;
 
 public class Integral  {
     private double upper_limit;
